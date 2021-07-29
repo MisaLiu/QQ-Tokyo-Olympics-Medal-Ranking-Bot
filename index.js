@@ -93,6 +93,12 @@ client.on('message.group', function (data) {
 					 + '最后更新：' + _lastUpdateTime;
 
 				client.sendGroupMsg(msg.fromGroup, output);
+
+			} else {
+				client.sendGroupMsg(msg.fromGroup, '[CQ:at,qq=' + msg.fromAccount + '] 服务器链接失败！');
+				console.error('[!!!奥运接口错误!!!]' + err);
+				return;
+				
 			}
 		});
 	}
