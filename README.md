@@ -11,6 +11,9 @@
 4. 运行 `index.js`
 5. 机器人就开始运行了，发送带有关键词 `奥运 && (排名 || 排行)` 即会触发消息
 
+## 常见问题
+去看 [OICQ 的 Wiki](https://github.com/takayama-lily/oicq/wiki)
+
 ## 鸣谢
 - node.js
 - [takayama-lily/oicq](https://github.com/takayama-lily/oicq)
